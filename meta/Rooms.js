@@ -6,12 +6,10 @@ const roomSchema = new Schema({
         type: Number
     },
     room_link: {
-        type: [String],
-        required: true,
+        type: [String ]
     },
     room_photo: {
-        type: [String],
-        required: true
+        type: [String]
     }
 });
 
