@@ -7,7 +7,13 @@ import TinderCard from './Components/TinderCard'
 // console.log(db)
 
 function App () {
-  const characters = db
+  const characters = [
+    {
+      header: 'Casa del Mama',
+      url: 'https://images.unsplash.com/photo-1553444862-65de13a9e728?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60'
+    }
+
+  ]
   const [lastDirection, setLastDirection] = useState()
 
   const swiped = (direction, nameToDelete) => {
@@ -27,7 +33,7 @@ function App () {
       <div className='cardContainer'>
         {characters.map((character) =>
           <TinderCard className='swipe' key={character.header} onSwipe={(dir) => swiped(dir, character.header)} onCardLeftScreen={() => outOfFrame(character.header)}>
-            <div style={{ backgroundImage: `url(${character.url}? ${character.url}: ${face}})` }} className='card'>
+            <div style={{ backgroundImage: `url(${character.url})`}} className='card'>
               <h3>{character.header}</h3>
             </div>
           </TinderCard>
