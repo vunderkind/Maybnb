@@ -86,12 +86,14 @@ box-shadow: 6px 2px 23px -10px rgba(0,0,0,0.33);
 } */
 
 .infoText {
+  margin-top: 75vh;
   width: 100%;
   height: 28px;
   justify-content: center;
   display: flex;
   /* color: #F38D68; */
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  font-weight: 800;
   animation: popup 200ms;
 }
 
