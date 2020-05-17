@@ -23,7 +23,7 @@ function App () {
     <div>
       <link href='https://fonts.googleapis.com/css?family=Damion&display=swap' rel='stylesheet' />
       <link href='https://fonts.googleapis.com/css?family=Alatsi&display=swap' rel='stylesheet' />
-      <h1>MayBnB!</h1>
+      <h1>Maybnb</h1>
       <div className='cardContainer'>
         {characters.map((character) =>
           <TinderCard className='swipe' key={character.header} onSwipe={(dir) => swiped(dir, character.header)} onCardLeftScreen={() => outOfFrame(character.header)}>
