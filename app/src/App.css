@@ -41,7 +41,9 @@ h1 {
   border-radius: 20px;
   background-size: cover;
   background-position: center;
-  /* border: 10px solid black; */
+  -webkit-box-shadow: 6px 2px 23px -10px rgba(0,0,0,0.66);
+-moz-box-shadow: 6px 2px 23px -10px rgba(0,0,0,0.66);
+box-shadow: 6px 2px 23px -10px rgba(0,0,0,0.66);
 }
 
 .cardContent {
