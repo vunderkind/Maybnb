@@ -11,6 +11,18 @@ function App () {
     {
       header: 'Casa del Mama',
       url: 'https://images.unsplash.com/photo-1553444862-65de13a9e728?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60'
+    },
+    {
+      header: 'Cabin in the woods',
+      url: 'https://images.unsplash.com/photo-1550355191-aa8a80b41353?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60'
+    },
+    {
+      header: 'Sunset pool',
+      url: 'https://images.unsplash.com/photo-1544984243-ec57ea16fe25?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60'
+    },
+    {
+      header: 'Green for miles',
+      url: 'https://images.unsplash.com/photo-1566754844421-9bc834baf4a3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60'
     }
 
   ]
