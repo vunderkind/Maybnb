@@ -14,14 +14,19 @@
 
 }
 
-h1 {
-  /* font-family: 'Alatsi', sans-serif; */
+.headerDiv {
   font-family: 'Helvetica';
-  /* color: #F38D68; */
-  color: #fff;
-  margin: 0;
+  color:#000;
+  /* padding: 10px; */
   margin-bottom: 10px;
-  margin-top: 10px;
+  background: #ffffff;
+  -webkit-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.2);
+  -moz-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.2);
+}
+
+.headerDiv>img{
+  width: 17%;
 }
 
 .swipe {
@@ -43,9 +48,9 @@ h1 {
   border-radius: 20px;
   background-size: cover;
   background-position: center;
-  -webkit-box-shadow: 6px 2px 23px -10px rgba(0,0,0,0.66);
--moz-box-shadow: 6px 2px 23px -10px rgba(0,0,0,0.66);
-box-shadow: 6px 2px 23px -10px rgba(0,0,0,0.66);
+  -webkit-box-shadow: 6px 2px 23px -10px rgba(0,0,0,0.33);
+-moz-box-shadow: 6px 2px 23px -10px rgba(0,0,0,0.33);
+box-shadow: 6px 2px 23px -10px rgba(0,0,0,0.33);
 }
 
 .cardContent {
@@ -62,6 +67,9 @@ box-shadow: 6px 2px 23px -10px rgba(0,0,0,0.66);
   bottom: 0;
   margin: 10px;
   color: #fff;
+  padding-left: 30px;
+  padding-bottom: 30px;
+  text-shadow: red;
 }
 
 .infoText {
@@ -70,7 +78,7 @@ box-shadow: 6px 2px 23px -10px rgba(0,0,0,0.66);
   justify-content: center;
   display: flex;
   /* color: #F38D68; */
-  color: #fff;
+  color: rgb(0, 0, 0);
   animation: popup 200ms;
 }
 

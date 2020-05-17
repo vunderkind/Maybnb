@@ -1,8 +1,7 @@
 import React, { useState } from 'react'
 import './App.css'
-import db from './results.json';
-import face from './meow.jpg'
 import TinderCard from './Components/TinderCard'
+import Logo from './logo.gif';
 
 // console.log(db)
 
@@ -39,9 +38,9 @@ function App () {
 
   return (
     <div>
-      <link href='https://fonts.googleapis.com/css?family=Damion&display=swap' rel='stylesheet' />
-      <link href='https://fonts.googleapis.com/css?family=Alatsi&display=swap' rel='stylesheet' />
-      <h1>Maybnb</h1>
+      <div className='headerDiv'>
+        <img src={Logo} alt='logo'/>
+      </div>
       <div className='cardContainer'>
         {characters.map((character) =>
           <TinderCard className='swipe' key={character.header} onSwipe={(dir) => swiped(dir, character.header)} onCardLeftScreen={() => outOfFrame(character.header)}>
