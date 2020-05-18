@@ -1,5 +1,3 @@
-/* global WebKitCSSMatrix */
-
 const React = require('react')
 const sleep = require('p-sleep')
 
