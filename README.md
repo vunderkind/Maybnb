@@ -9,3 +9,4 @@ Swipe right today, spend your vacation there some time in the future. Do you thi
 [] Add data persistence
 [] Scrape Airbnb
 [] Find way to automate scraping based on frontend query (passed as args to puppeteer)
+[] find replacement api
