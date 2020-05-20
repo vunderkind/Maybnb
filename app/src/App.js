@@ -3,8 +3,17 @@ import './App.css'
 import TinderCard from './Components/TinderCard'
 import Logo from './logo.gif';
 import db from './results.json'
+import axios from 'axios';
 
-// console.log(db)
+const characters = db
+
+let database;
+let API = `https://rickandmortyapi.com/api/character/`
+axios.get(API)
+.then(result=>database=result.data.results)
+.catch(err=>console.error(err))
+
+console.log(database)
 
 function App () {
   const characters = db;
